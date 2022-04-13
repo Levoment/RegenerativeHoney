@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "regenerativehoney",
+  "version": "${version}",
+
+  "name": "Regenerative Honey",
+  "description": "Mod to make honey give a regeneration and saturation effect",
+  "authors": [
+    "Levoment"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "The Unlicense",
+  "icon": "assets/regenerativehoney/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.levoment.regenerativehoney.RegenerativeHoneyMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
